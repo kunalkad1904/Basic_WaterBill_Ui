@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/homeicon"
+            android:title="DashBoard" />
+        <item
+            android:id="@+id/nav_waterbill"
+            android:icon="@drawable/bill2"
+            android:title="WaterBill" />
+        <item
+            android:id="@+id/nav_billhistory"
+            android:icon="@drawable/history2"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notification2"
+            android:title="Notification" />
+
+    </group>
+        <item
+
+            android:title="profile">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_personaldetails"
+                        android:icon="@drawable/personal2"
+                        android:title="Edit Personal Details" />
+                    <item
+                        android:id="@+id/nav_password"
+                        android:icon="@drawable/password2"
+                        android:title="Password" />
+                </group>
+            </menu>
+        </item>
+
+    <item android:title="Communications">
+       <menu>
+           <group android:checkableBehavior="single">
+           <item
+               android:id="@+id/nav_call"
+               android:icon="@drawable/call2"
+               android:title="Call us" />
+           <item
+               android:id="@+id/nav_email"
+               android:icon="@drawable/email2"
+               android:title="Email on us" />
+           <item
+               android:id="@+id/address"
+               android:icon="@drawable/location3"
+               android:title="Address" />
+           </group>
+       </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/setting2"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log Out" />
+    </group>
+</menu>

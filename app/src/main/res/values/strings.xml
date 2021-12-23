@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WaterBill</string>
+    <string name="water_bill_systems">WATER BILL SYSTEMS</string>
+    <string name="powerd_by_trickysys">Powerd By Trickysys</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
